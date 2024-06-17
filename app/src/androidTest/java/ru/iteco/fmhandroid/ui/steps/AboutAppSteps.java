@@ -26,7 +26,7 @@ import ru.iteco.fmhandroid.R;
 
 public class AboutAppSteps {
 
-    public static ViewInteraction version = onView(allOf(withId(R.id.about_version_title_text_view)));
+    private ViewInteraction version = onView(allOf(withId(R.id.about_version_title_text_view)));
     public static ViewInteraction privacyPolicy = onView(withId(R.id.about_privacy_policy_label_text_view));
     public static ViewInteraction privacyPolicyLink = onView(withId(R.id.about_privacy_policy_value_text_view));
     public static ViewInteraction termsOfUse = onView(withId(R.id.about_terms_of_use_label_text_view));

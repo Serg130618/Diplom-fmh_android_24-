@@ -42,9 +42,9 @@ captures/
 *.war
 *.nar
 *.ear
-*.zip
+
 *.tar.gz
-*.rar
+
 
 ### Gradle ###
 !gradle/wrapper/gradle-wrapper.jar
